@@ -9,9 +9,9 @@
 	function Connection(){
 
 		$server="localhost";
-		$user="root";
-		$pass="root";
-		$db="test";
+		$user="iot";
+		$pass="MttyqgdaV1nWw";
+		$db="iot";
 
 		$connection = mysqli_connect($server, $user, $pass);
 

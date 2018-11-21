@@ -1,5 +1,8 @@
 <?php
-
+    
+    $page = $_SERVER['PHP_SELF'];
+    $sec = "5";
+	
     include("includes/daily_data.php");
 
 ?>
@@ -8,6 +11,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="refresh" content=<?php echo $sec?>;URL='<?php echo $page?>'">
+
         <title>Daily weather</title>
         <script src="js/d3.v3.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
